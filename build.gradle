@@ -19,6 +19,7 @@ sourceCompatibility = 1.8
 mainClassName = 'fr.gblaquiere.servlet.ServletApplication'
 group 'fr.gblaquiere'
 version '1.0-SNAPSHOT'
+sourceCompatibility = '17'
 
 ext {
     slf4jVersion = '1.7.26'
