@@ -19,7 +19,8 @@ plugins {
 mainClassName = 'fr.gblaquiere.servlet.ServletApplication'
 group 'fr.gblaquiere'
 version '1.0-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = 1.8     // App Engine Flexible uses Java 8
+targetCompatibility = 1.8     // App Engine Flexible uses Java 8
 
 ext {
     slf4jVersion = '1.7.26'
